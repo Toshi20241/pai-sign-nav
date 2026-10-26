@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "result": {
+    "seed": 20261029,
+    "policy": "learned",
+    "profile": "standard",
+    "completed": true,
+    "success": true,
+    "contacts": 0,
+    "duration_seconds": 68.05,
+    "path_length_m": 14.605803581965684,
+    "choices": [
+      0,
+      1,
+      2
+    ],
+    "final_position": [
+      1.0644170305912471e-05,
+      10.810468763122861
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      0,
+      1,
+      2
+    ],
+    "correct_decisions": 3,
+    "decision_count": 3,
+    "all_signs_followed": true
+  },
+  "simulation": {
+    "model": "no-slip differential-drive planar kinematics",
+    "integration_step_seconds": 0.01,
+    "control_step_seconds": 0.05,
+    "sensor": "synthetic 96px sign panel, known capture stations",
+    "localization": "exact simulator pose",
+    "collision": "circle-versus-rectangle geometry; terminate on contact",
+    "wheel_radius_m": 0.055,
+    "axle_m": 0.29,
+    "wheel_tau_seconds": 0.12,
+    "wheel_acceleration_limit_rad_s2": 32.0,
+    "wheel_gain": [
+      1.0121452211734845,
+      0.9997635428346484
+    ]
+  },
+  "observations": [
+    {
+      "index": 0,
+      "time": 6.2,
+      "image": "camera/sign_01.png",
+      "prediction": {
+        "label": 0,
+        "name": "LEFT",
+        "confidence": 0.9996768236160278,
+        "probabilities": [
+          0.9996768236160278,
+          8.194756446755491e-06,
+          0.00031494180439040065
+        ]
+      },
+      "robot_pose": [
+        0.0016208480132016154,
+        1.1594347060206478,
+        1.587918891268786
+      ]
+    },
+    {
+      "index": 1,
+      "time": 29.8,
+      "image": "camera/sign_02.png",
+      "prediction": {
+        "label": 1,
+        "name": "STRAIGHT",
+        "confidence": 0.9957398176193237,
+        "probabilities": [
+          0.003847878659144044,
+          0.9957398176193237,
+          0.0004123917024116963
+        ]
+      },
+      "robot_pose": [
+        0.0013619736572173437,
+        4.359767341504737,
+        1.5886232827044449
+      ]
+    },
+    {
+      "index": 2,
+      "time": 44.05,
+      "image": "camera/sign_03.png",
+      "prediction": {
+        "label": 2,
+        "name": "RIGHT",
+        "confidence": 0.9981603026390076,
+        "probabilities": [
+          0.0014132169308140874,
+          0.00042653176933526993,
+          0.9981603026390076
+        ]
+      },
+      "robot_pose": [
+        0.00031642755151346227,
+        7.559831902050619,
+        1.5751286904292252
+      ]
+    }
+  ],
+  "events": [
+    {
+      "time": 0.0,
+      "event": "START",
+      "junction": 0
+    },
+    {
+      "time": 5.85,
+      "event": "ARRIVE_SIGN",
+      "junction": 0
+    },
+    {
+      "time": 6.2,
+      "event": "CLASSIFY",
+      "junction": 0,
+      "choice": 0,
+      "prediction": {
+        "label": 0,
+        "name": "LEFT",
+        "confidence": 0.9996768236160278,
+        "probabilities": [
+          0.9996768236160278,
+          8.194756446755491e-06,
+          0.00031494180439040065
+        ]
+      }
+    },
+    {
+      "time": 7.85,
+      "event": "FOLLOW_BRANCH",
+      "junction": 0,
+      "choice": 0
+    },
+    {
+      "time": 29.5,
+      "event": "ARRIVE_SIGN",
+      "junction": 1
+    },
+    {
+      "time": 29.8,
+      "event": "CLASSIFY",
+      "junction": 1,
+      "choice": 1,
+      "prediction": {
+        "label": 1,
+        "name": "STRAIGHT",
+        "confidence": 0.9957398176193237,
+        "probabilities": [
+          0.003847878659144044,
+          0.9957398176193237,
+          0.0004123917024116963
+        ]
+      }
+    },
+    {
+      "time": 31.4,
+      "event": "FOLLOW_BRANCH",
+      "junction": 1,
+      "choice": 1
+    },
+    {
+      "time": 43.8,
+      "event": "ARRIVE_SIGN",
+      "junction": 2
+    },
+    {
+      "time": 44.05,
+      "event": "CLASSIFY",
+      "junction": 2,
+      "choice": 2,
+      "prediction": {
+        "label": 2,
+        "name": "RIGHT",
+        "confidence": 0.9981603026390076,
+        "probabilities": [
+          0.0014132169308140874,
+          0.00042653176933526993,
+          0.9981603026390076
+        ]
+      }
+    },
+    {
+      "time": 45.7,
+      "event": "FOLLOW_BRANCH",
+      "junction": 2,
+      "choice": 2
+    },
+    {
+      "time": 67.55,
+      "event": "GOAL_REACHED",
+      "junction": 3
+    },
+    {
+      "time": 68.05,
+      "event": "COMPLETE",
+      "junction": 3
+    }
+  ]
+}

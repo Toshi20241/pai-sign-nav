@@ -1,0 +1,31 @@
+{
+  "seed_start": 81000,
+  "conditions": 6,
+  "total_runs": 12,
+  "elapsed_seconds": 5.518384407999747,
+  "profile": "standard",
+  "policies": {
+    "learned": {
+      "runs": 6,
+      "completed": 6,
+      "successes": 6,
+      "all_signs_followed": 6,
+      "correct_decisions": 18,
+      "decision_count": 18,
+      "contact_events": 0,
+      "mean_duration_seconds": 66.78333333333333,
+      "mean_path_length_m": 14.317407109901232
+    },
+    "straight": {
+      "runs": 6,
+      "completed": 6,
+      "successes": 0,
+      "all_signs_followed": 0,
+      "correct_decisions": 7,
+      "decision_count": 18,
+      "contact_events": 0,
+      "mean_duration_seconds": 49.675000000000004,
+      "mean_path_length_m": 11.159855125126365
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 20,
+  "frames": 1642,
+  "duration_seconds": 82.1,
+  "simulation_seconds": 68.05,
+  "simulation_playback_speed": 1,
+  "sections_seconds": {
+    "intro": 6,
+    "simulation": 68.1,
+    "summary": 8
+  },
+  "rendering": "saved planar wheel-motion trajectory rendered with Pillow",
+  "audio": "none; Japanese captions",
+  "video_file": "動画_PAI最終課題_Toshigakusei.mp4"
+}

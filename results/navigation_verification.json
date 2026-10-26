@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "positive_uniform_telemetry_time": true,
+    "position_is_continuous": true,
+    "wheel_acceleration_within_bound": true,
+    "telemetry_has_no_obstacle_overlap": true,
+    "saved_images_reproduce_decisions": true,
+    "changed_images_change_actions": true,
+    "left_and_right_detours_visible_in_positions": true,
+    "all_benchmark_conditions_retained": true,
+    "policy_conditions_are_matched": true,
+    "successful_trials_follow_all_signs": true
+  },
+  "passed": 10,
+  "total": 10,
+  "max_telemetry_step_m": 0.015089219116241035,
+  "max_observed_wheel_acceleration_rad_s2": 32.0,
+  "original_image_decisions": [
+    0,
+    1,
+    2
+  ],
+  "reordered_image_decisions": [
+    1,
+    2,
+    0
+  ]
+}

@@ -1,0 +1,13 @@
+seed,policy,profile,completed,success,contacts,duration_seconds,path_length_m,correct_decisions,decision_count,all_signs_followed,max_wheel_acceleration
+81000,learned,standard,True,True,0,59.05,12.881889514384042,3,3,True,32.0
+81000,straight,standard,True,False,0,49.8,11.159837125190014,2,3,False,32.0
+81001,learned,standard,True,True,0,58.75,12.881945343361734,3,3,True,32.0
+81001,straight,standard,True,False,0,49.55,11.159886909021113,2,3,False,32.0
+81002,learned,standard,True,True,0,77.45,16.326363677918227,3,3,True,32.0
+81002,straight,standard,True,False,0,49.55,11.159816253169794,0,3,False,32.0
+81003,learned,standard,True,True,0,67.9,14.603615790010045,3,3,True,32.0
+81003,straight,standard,True,False,0,49.35,11.160171850561563,1,3,False,32.0
+81004,learned,standard,True,True,0,59.05,12.880737775333726,3,3,True,32.0
+81004,straight,standard,True,False,0,49.7,11.158989534492708,2,3,False,32.0
+81005,learned,standard,True,True,0,78.5,16.32989055839963,3,3,True,32.0
+81005,straight,standard,True,False,0,50.1,11.160429078323002,0,3,False,32.0

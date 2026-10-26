@@ -1,0 +1,338 @@
+[
+  {
+    "seed": 81000,
+    "policy": "learned",
+    "profile": "standard",
+    "completed": true,
+    "success": true,
+    "contacts": 0,
+    "duration_seconds": 59.05,
+    "path_length_m": 12.881889514384042,
+    "choices": [
+      2,
+      1,
+      1
+    ],
+    "final_position": [
+      0.0007176577257056261,
+      10.809092235916076
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      2,
+      1,
+      1
+    ],
+    "correct_decisions": 3,
+    "decision_count": 3,
+    "all_signs_followed": true
+  },
+  {
+    "seed": 81000,
+    "policy": "straight",
+    "profile": "standard",
+    "completed": true,
+    "success": false,
+    "contacts": 0,
+    "duration_seconds": 49.8,
+    "path_length_m": 11.159837125190014,
+    "choices": [
+      1,
+      1,
+      1
+    ],
+    "final_position": [
+      0.0007176099526113648,
+      10.809093267666727
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      2,
+      1,
+      1
+    ],
+    "correct_decisions": 2,
+    "decision_count": 3,
+    "all_signs_followed": false
+  },
+  {
+    "seed": 81001,
+    "policy": "learned",
+    "profile": "standard",
+    "completed": true,
+    "success": true,
+    "contacts": 0,
+    "duration_seconds": 58.75,
+    "path_length_m": 12.881945343361734,
+    "choices": [
+      1,
+      0,
+      1
+    ],
+    "final_position": [
+      -0.0008252149455921966,
+      10.809326827968839
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      1,
+      0,
+      1
+    ],
+    "correct_decisions": 3,
+    "decision_count": 3,
+    "all_signs_followed": true
+  },
+  {
+    "seed": 81001,
+    "policy": "straight",
+    "profile": "standard",
+    "completed": true,
+    "success": false,
+    "contacts": 0,
+    "duration_seconds": 49.55,
+    "path_length_m": 11.159886909021113,
+    "choices": [
+      1,
+      1,
+      1
+    ],
+    "final_position": [
+      -0.0008226925262543916,
+      10.809369591160717
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      1,
+      0,
+      1
+    ],
+    "correct_decisions": 2,
+    "decision_count": 3,
+    "all_signs_followed": false
+  },
+  {
+    "seed": 81002,
+    "policy": "learned",
+    "profile": "standard",
+    "completed": true,
+    "success": true,
+    "contacts": 0,
+    "duration_seconds": 77.45,
+    "path_length_m": 16.326363677918227,
+    "choices": [
+      0,
+      2,
+      0
+    ],
+    "final_position": [
+      -0.000176098087043474,
+      10.809857073823125
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      0,
+      2,
+      0
+    ],
+    "correct_decisions": 3,
+    "decision_count": 3,
+    "all_signs_followed": true
+  },
+  {
+    "seed": 81002,
+    "policy": "straight",
+    "profile": "standard",
+    "completed": true,
+    "success": false,
+    "contacts": 0,
+    "duration_seconds": 49.55,
+    "path_length_m": 11.159816253169794,
+    "choices": [
+      1,
+      1,
+      1
+    ],
+    "final_position": [
+      -0.0008446401579309883,
+      10.808973224576818
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      0,
+      2,
+      0
+    ],
+    "correct_decisions": 0,
+    "decision_count": 3,
+    "all_signs_followed": false
+  },
+  {
+    "seed": 81003,
+    "policy": "learned",
+    "profile": "standard",
+    "completed": true,
+    "success": true,
+    "contacts": 0,
+    "duration_seconds": 67.9,
+    "path_length_m": 14.603615790010045,
+    "choices": [
+      0,
+      2,
+      1
+    ],
+    "final_position": [
+      -0.00034548991510085993,
+      10.809915443727835
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      0,
+      2,
+      1
+    ],
+    "correct_decisions": 3,
+    "decision_count": 3,
+    "all_signs_followed": true
+  },
+  {
+    "seed": 81003,
+    "policy": "straight",
+    "profile": "standard",
+    "completed": true,
+    "success": false,
+    "contacts": 0,
+    "duration_seconds": 49.35,
+    "path_length_m": 11.160171850561563,
+    "choices": [
+      1,
+      1,
+      1
+    ],
+    "final_position": [
+      -0.0003458836870675238,
+      10.80992511141576
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      0,
+      2,
+      1
+    ],
+    "correct_decisions": 1,
+    "decision_count": 3,
+    "all_signs_followed": false
+  },
+  {
+    "seed": 81004,
+    "policy": "learned",
+    "profile": "standard",
+    "completed": true,
+    "success": true,
+    "contacts": 0,
+    "duration_seconds": 59.05,
+    "path_length_m": 12.880737775333726,
+    "choices": [
+      1,
+      1,
+      2
+    ],
+    "final_position": [
+      -0.00019708068987356564,
+      10.809478441527329
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      1,
+      1,
+      2
+    ],
+    "correct_decisions": 3,
+    "decision_count": 3,
+    "all_signs_followed": true
+  },
+  {
+    "seed": 81004,
+    "policy": "straight",
+    "profile": "standard",
+    "completed": true,
+    "success": false,
+    "contacts": 0,
+    "duration_seconds": 49.7,
+    "path_length_m": 11.158989534492708,
+    "choices": [
+      1,
+      1,
+      1
+    ],
+    "final_position": [
+      0.00019484427932504932,
+      10.808939271665144
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      1,
+      1,
+      2
+    ],
+    "correct_decisions": 2,
+    "decision_count": 3,
+    "all_signs_followed": false
+  },
+  {
+    "seed": 81005,
+    "policy": "learned",
+    "profile": "standard",
+    "completed": true,
+    "success": true,
+    "contacts": 0,
+    "duration_seconds": 78.5,
+    "path_length_m": 16.32989055839963,
+    "choices": [
+      2,
+      2,
+      2
+    ],
+    "final_position": [
+      -0.0012733732776873592,
+      10.809492246115067
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      2,
+      2,
+      2
+    ],
+    "correct_decisions": 3,
+    "decision_count": 3,
+    "all_signs_followed": true
+  },
+  {
+    "seed": 81005,
+    "policy": "straight",
+    "profile": "standard",
+    "completed": true,
+    "success": false,
+    "contacts": 0,
+    "duration_seconds": 50.1,
+    "path_length_m": 11.160429078323002,
+    "choices": [
+      1,
+      1,
+      1
+    ],
+    "final_position": [
+      -0.0005611199076017454,
+      10.809879135778626
+    ],
+    "max_wheel_acceleration": 32.0,
+    "true_labels": [
+      2,
+      2,
+      2
+    ],
+    "correct_decisions": 0,
+    "decision_count": 3,
+    "all_signs_followed": false
+  }
+]

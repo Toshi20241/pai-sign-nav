@@ -1,0 +1,7 @@
+# Full direct dependencies: core execution + training + PDF regeneration.
+-r requirements-core.txt
+scikit-learn==1.8.0
+threadpoolctl==3.6.0
+reportlab==4.4.9
+# MP4 regeneration additionally requires the external ffmpeg command.
+

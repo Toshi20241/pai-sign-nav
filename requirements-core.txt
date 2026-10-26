@@ -1,0 +1,5 @@
+# Verified direct dependencies for saved-model inference, simulation and verification.
+# Python 3.12.14 was used for the included results.
+numpy==2.3.5
+Pillow==12.3.0
+
